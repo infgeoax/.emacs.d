@@ -3,3 +3,4 @@ server
 .emacs.desktop
 .emacs.desktop.lock
 auto-save-list
+elpa/archives
