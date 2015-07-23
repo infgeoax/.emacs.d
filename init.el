@@ -32,5 +32,9 @@
 ;; (require 'ensime)
 ;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
+;;
+(require 'git)
+(require 'git-blame)
+
 ;; Run as server
 (server-start)
