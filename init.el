@@ -28,7 +28,10 @@
 ;; Automatically reload files that was modified by external programs
 (global-auto-revert-mode 1)
 
-;; Ensime
+;; Disable the toolbar.
+(tool-bar-mode -1)
+
+;; Ensime (not working)
 ;; (require 'ensime)
 ;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
